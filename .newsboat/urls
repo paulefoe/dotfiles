@@ -1,2 +1,15 @@
-https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA !YouTube YouTube Podcast
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA !YouTube YouTube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCTyA1ortyWPc1uLF5cbzluA !Youtube YouTube Distraction
+
+#"query:YouTube:tags (tags=\"YouTube\"" and tags != \"~Distraction\"")
+#"query:YouTube:\"( title =~ "Linux" or title =~ "FreeBSD" )\""
+#"query:Unread Articles:tags # \"YouTube\"" and !# \"Distraction\""
+"query:Youtube useful:tags !# \"Distraction\" and tags !# \"Podcast\" and tags # \"YouTube\""
+# "query:only interest:tags =~ \"lkml\" and ( title =~ \"media: vivid: \" )" "lkml"
+"query:DistractionTube:tags # \"Distraction\" and tags # \"YouTube\""
+"query:Podcast:tags # \"Podcast\""
+
+"---BLOGS---"
+https://lukesmith.xyz/rss.xml 
 
